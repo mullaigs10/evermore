@@ -8,21 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		BD5CD2B12A4B8C0300F465EB /* e_v_e_r_m_o_r_e_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD2B02A4B8C0300F465EB /* e_v_e_r_m_o_r_e_App.swift */; };
-		BD5CD2B32A4B8C0300F465EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD2B22A4B8C0300F465EB /* ContentView.swift */; };
+		BD5CD2B32A4B8C0300F465EB /* evermore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD2B22A4B8C0300F465EB /* evermore.swift */; };
 		BD5CD2B52A4B8C0400F465EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5CD2B42A4B8C0400F465EB /* Assets.xcassets */; };
 		BD5CD2B82A4B8C0400F465EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5CD2B72A4B8C0400F465EB /* Preview Assets.xcassets */; };
 		BD5CD2BA2A4B8C0400F465EB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD2B92A4B8C0400F465EB /* Persistence.swift */; };
 		BD5CD2BD2A4B8C0400F465EB /* e_v_e_r_m_o_r_e_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD2BB2A4B8C0400F465EB /* e_v_e_r_m_o_r_e_.xcdatamodeld */; };
+		BD89762C2A4C8C6900238BCE /* welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89762B2A4C8C6900238BCE /* welcome.swift */; };
+		BD89762E2A4C8C8500238BCE /* pomodoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89762D2A4C8C8500238BCE /* pomodoro.swift */; };
+		BD8976302A4C8CC900238BCE /* agenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89762F2A4C8CC900238BCE /* agenda.swift */; };
+		BD8976322A4C8D6100238BCE /* tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8976312A4C8D6100238BCE /* tasks.swift */; };
+		BD8976342A4C8D8600238BCE /* events.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8976332A4C8D8600238BCE /* events.swift */; };
+		BD8976362A4C8DA200238BCE /* scheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8976352A4C8DA200238BCE /* scheduling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD5CD2AD2A4B8C0300F465EB /* e v e r m o r e..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e v e r m o r e..app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5CD2B02A4B8C0300F465EB /* e_v_e_r_m_o_r_e_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_v_e_r_m_o_r_e_App.swift; sourceTree = "<group>"; };
-		BD5CD2B22A4B8C0300F465EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD5CD2B22A4B8C0300F465EB /* evermore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evermore.swift; sourceTree = "<group>"; };
 		BD5CD2B42A4B8C0400F465EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD5CD2B72A4B8C0400F465EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD5CD2B92A4B8C0400F465EB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BD5CD2BC2A4B8C0400F465EB /* e_v_e_r_m_o_r_e_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = e_v_e_r_m_o_r_e_.xcdatamodel; sourceTree = "<group>"; };
+		BD89762B2A4C8C6900238BCE /* welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcome.swift; sourceTree = "<group>"; };
+		BD89762D2A4C8C8500238BCE /* pomodoro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoro.swift; sourceTree = "<group>"; };
+		BD89762F2A4C8CC900238BCE /* agenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agenda.swift; sourceTree = "<group>"; };
+		BD8976312A4C8D6100238BCE /* tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tasks.swift; sourceTree = "<group>"; };
+		BD8976332A4C8D8600238BCE /* events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = events.swift; sourceTree = "<group>"; };
+		BD8976352A4C8DA200238BCE /* scheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				BD5CD2B02A4B8C0300F465EB /* e_v_e_r_m_o_r_e_App.swift */,
-				BD5CD2B22A4B8C0300F465EB /* ContentView.swift */,
+				BD5CD2B22A4B8C0300F465EB /* evermore.swift */,
+				BD89762B2A4C8C6900238BCE /* welcome.swift */,
+				BD89762D2A4C8C8500238BCE /* pomodoro.swift */,
+				BD89762F2A4C8CC900238BCE /* agenda.swift */,
+				BD8976312A4C8D6100238BCE /* tasks.swift */,
+				BD8976332A4C8D8600238BCE /* events.swift */,
+				BD8976352A4C8DA200238BCE /* scheduling.swift */,
 				BD5CD2B42A4B8C0400F465EB /* Assets.xcassets */,
 				BD5CD2B92A4B8C0400F465EB /* Persistence.swift */,
 				BD5CD2BB2A4B8C0400F465EB /* e_v_e_r_m_o_r_e_.xcdatamodeld */,
@@ -143,9 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD89762C2A4C8C6900238BCE /* welcome.swift in Sources */,
 				BD5CD2BA2A4B8C0400F465EB /* Persistence.swift in Sources */,
-				BD5CD2B32A4B8C0300F465EB /* ContentView.swift in Sources */,
+				BD5CD2B32A4B8C0300F465EB /* evermore.swift in Sources */,
+				BD8976342A4C8D8600238BCE /* events.swift in Sources */,
 				BD5CD2BD2A4B8C0400F465EB /* e_v_e_r_m_o_r_e_.xcdatamodeld in Sources */,
+				BD8976322A4C8D6100238BCE /* tasks.swift in Sources */,
+				BD89762E2A4C8C8500238BCE /* pomodoro.swift in Sources */,
+				BD8976362A4C8DA200238BCE /* scheduling.swift in Sources */,
+				BD8976302A4C8CC900238BCE /* agenda.swift in Sources */,
 				BD5CD2B12A4B8C0300F465EB /* e_v_e_r_m_o_r_e_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
